@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 antialiased;
+}
+
+button,
+input,
+select,
+textarea {
+  @apply font-sans;
+}
+
+::selection {
+  background: #60a5fa;
+  color: #ffffff;
+}
